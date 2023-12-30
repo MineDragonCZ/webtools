@@ -11,6 +11,11 @@ let noInternetMessage = `
 </div>
 `;
 
+function setCSSCPaths(SC, CS){
+	pathSC = SC;
+	pathCS = CS;
+}
+
 /*
  * SERVER TO CLIENT
  */
